@@ -1,0 +1,151 @@
+html{
+    background-color:#555050;
+}
+
+*,*::before,*::after{
+    margin:0;
+    padding:0;
+    /* box sizing:Determina como se comportan los margenes y los rellenos: 
+    border-box toma el tamaño del elemento se empuja el contenido hacia adentro si le pongo un margin o padding
+    content-box agrega al tamaño del elemento el margin o padding que agreguemos
+    */
+    box-sizing: border-box;
+  
+}
+
+body{
+    background-color:#555050;
+}
+
+main{
+    margin: 0 auto;
+    max-width: 1220px;
+     
+}
+
+
+.container-fluid{
+    display:flex;
+    flex-direction: center!important;
+}
+
+#image-container{
+    background-image:url('/assets/Central/imagenCentral.png');
+    background-size:cover;
+    background-position:center;
+    height:90vh;
+    
+}
+.products{
+    background-color:black;
+}
+.divider{
+    height:80px;
+    background-color: #555151;
+    color:#d5ac8c;
+    display:flex;
+    align-content: center;
+}
+.divider-text{
+    margin:auto;
+    line-height:80px;
+}
+
+.product-container{
+    background-color:black;
+}
+
+.product-image{
+    height:400px;
+    background-size: auto;
+    background-repeat:no-repeat;
+}
+
+.info-button{
+    background-color:black;
+    color:#d5ac8c;
+    border-color:#d5ac8c;
+    width:80px;
+    margin:0 auto;
+}
+.info-button:hover{
+    background-color:black;
+    color:#d5ac8c;
+    border-color:#d5ac8c;
+}
+
+.card{
+    background-color:black!important;
+    color:white!important;
+    margin: auto!important;
+    max-width: 500px;
+}
+
+.card h3{
+    font-weight: lighter;
+    color:#d5ac8c;
+}
+
+.product-footer{
+    color:#d5ac8c;
+    font-weight: bold;
+}
+
+#alfajores-maicena{
+    background-color: #bca177!important;
+
+}
+#alfajores-maicena-card{
+    background-color: #bca177!important;
+    border-style: none;
+
+}
+
+.divider-health{
+    height:200px;
+    background-color: #555151;
+    color:white;
+    text-align: center;
+}
+
+.divider-health-text{
+    margin:10px auto;
+}
+
+.healthy{
+    width:5rem;
+}
+
+.form-container{
+    height:350px;
+    display:flex;
+    flex-direction: row;
+    background-color:#FFFFFF;
+    color:#ccc1b5;
+    padding:0;
+
+}
+
+#form label{
+    margin-left:0;
+}
+
+#recetas{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin:0;
+    padding: 0;
+}
+
+.receta{
+    background-color:#ccc1b5!important;
+}
+
+
+@media only screen and (max-width:768px) {
+    #logoMenu{
+        display:none;
+    }
+    
+}
