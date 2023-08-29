@@ -142,6 +142,17 @@ main{
     background-color:#ccc1b5!important;
 }
 
+footer{
+    height:30vh;
+    background-color:black;
+    border-bottom:20px #d5ac8c solid;
+    color:white;
+}
+
+.title-footer,.card-title{
+    color:#bca177;
+}
+
 
 @media only screen and (max-width:768px) {
     #logoMenu{
