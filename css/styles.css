@@ -133,7 +133,7 @@ main{
 #recetas{
     display:flex;
     flex-direction:row;
-    justify-content: space-between;
+    justify-content: space-around;
     margin:0;
     padding: 0;
 }
@@ -143,10 +143,16 @@ main{
 }
 
 footer{
-    height:30vh;
+    height:40vh;
     background-color:black;
     border-bottom:20px #d5ac8c solid;
     color:white;
+}
+
+.footer-container{
+    display:flex;
+    justify-content: space-between;
+    padding-top:10px;
 }
 
 .title-footer,.card-title{
@@ -157,6 +163,12 @@ footer{
 @media only screen and (max-width:768px) {
     #logoMenu{
         display:none;
+    }
+    footer{
+        height:400px;
+    }
+    #header{
+        display:none
     }
     
 }
